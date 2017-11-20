@@ -1,7 +1,7 @@
 var date = new Date();
 var connection = require('./../models/databaseConnection');
 var path = require('path');
-var request = require('request');
+//var request = require('request');
 
 module.exports = {
     'customerList': function (req, res) {
